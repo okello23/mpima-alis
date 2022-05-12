@@ -20,6 +20,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::middleware('api')->group(function()
 {
+  
     /*
     |-----------------------------------------
     | API route
